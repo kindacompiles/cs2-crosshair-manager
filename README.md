@@ -14,11 +14,28 @@ It lets you quickly switch crosshairs in CS2 by using a bind or simple console c
 
 ## Run
 
+### Linux / macOS
+
 ```sh
 python3 -m venv .venv
-. .venv/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
+```
+
+### Windows
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python main.py
+```
+
+If PowerShell blocks activation, run this once in the same terminal and try again:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 ## Use
