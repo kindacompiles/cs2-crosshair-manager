@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local app state
+config.json
+config.json.broken
+
+# Editor noise
+.vscode/*.log
