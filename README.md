@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # CS2 Crosshair Manager
 
 A small desktop utility for saving Counter-Strike 2 crosshair presets and writing them into reusable CS2 cfg files.
@@ -66,3 +67,7 @@ Labels, cvar names, cvar values, share codes, and binds are validated before bei
 This is a focused personal utility, not an official Valve tool. If CS2 cfg or crosshair behavior changes from an update, the app may no longer work. 
 Alias and bind commands may be blocked in workshops.
 This was built as a personal utility with AI-assisted development and manual testing against CS2 cfg behavior.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
